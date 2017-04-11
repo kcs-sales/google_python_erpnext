@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include erpnext_google_mail *.css
+recursive-include erpnext_google_mail *.csv
+recursive-include erpnext_google_mail *.html
+recursive-include erpnext_google_mail *.ico
+recursive-include erpnext_google_mail *.js
+recursive-include erpnext_google_mail *.json
+recursive-include erpnext_google_mail *.md
+recursive-include erpnext_google_mail *.png
+recursive-include erpnext_google_mail *.py
+recursive-include erpnext_google_mail *.svg
+recursive-include erpnext_google_mail *.txt
+recursive-exclude erpnext_google_mail *.pyc
